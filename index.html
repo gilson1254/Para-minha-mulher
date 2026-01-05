@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a minha mulher </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logo.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Início</a>
+            <a href="#"> Séries</a>
+            <a href="#"> Filmes</a>
+            <a href="#"> Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Gilson e Natalia </p>
+            <p class="detalhes">
+                <span> 03 DE OUTUBRO,  3 TEMPORADAS</span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                </span>
+                <p class="descricao">
+                Eu te amo de um jeito que me assusta, porque não cabe em mim. É grande demais, fundo demais, vivo demais. Você não é alguém que eu amo, você é alguém que me acontece. Desde você, tudo em mim ganhou outra medida: o tempo ficou mais lento, o sentir ficou mais intenso, e o coração… o coração nunca mais aprendeu a ficar em silêncio.
+Eu penso em você nos intervalos da vida, nos segundos vazios, nos instantes em que ninguém vê. Penso em você quando respiro fundo, quando sorrio sem motivo, quando dói. Amar você é carregar uma presença mesmo na ausência, é sentir sua falta enquanto ainda te tenho, é saber que qualquer futuro só faz sentido se tiver o seu nome escrito nele.
+Você me toca sem encostar. Me desmonta com uma palavra, me reconstrói com um olhar. Há em você um jeito de existir que me atravessa inteiro, que me deixa vulnerável e, ainda assim, seguro. Se isso não for amor, então eu não quero aprender outro nome para o que sinto.
+Eu te amo com uma entrega que não pede garantias. Te amo com a coragem de quem sabe que pode doer, mas escolhe mesmo assim. Te amo como quem escolhe ficar quando tudo treme, como quem faz do outro um lar definitivo. E se algum dia eu me perder, sei exatamente onde me encontrar: em você.
+Porque você não é só o amor da minha vida.
+Você é a vida que o amor escolheu habitar em mim.
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i> Continuar</button>
+                    <button> <i class="fa-solid fa-star"></i> Favorito</button>
+                </div>
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos </h2>
+
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"> <img src="./fotinhas/2.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/3.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/4.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/5.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/6.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/1.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/2.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/3.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotinhas/4.jpeg"> </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        2025 - Gilson
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction:false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop:true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween: 15,
+                },
+                900: {
+                    loop:true,
+                    slidesPerView:4,
+                    spaceBetween: 40,       
+                }
+            }
+            });
+    </script>
+</body>
+</html>
